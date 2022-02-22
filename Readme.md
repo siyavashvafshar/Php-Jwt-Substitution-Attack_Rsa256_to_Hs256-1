@@ -81,7 +81,14 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDU0Nzk0NzcsImlzcyI6ImxvY2FsaG9
 
 ![Getting Started](84.png)
 
+   
+## Twitter & Facebook Contributor :
+   
+ https://www.linkedin.com/in/mohammad-hussein-namadi-775baa131/
+     
+## Fix 
 
+We encourage you to contribute to Project and Fix Codes
 
 
 
