@@ -17,7 +17,7 @@ https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_She
 install from my dockerhub : https://hub.docker.com/r/mhnamadi/jwt-php-rsa256tohs256
 
 
-    docker run -ti -p 9090:5000 mhnamadi/jwt-php-rsa256tohs256
+    docker run -tid -p 9090:80 mhnamadi/jwt-php-rsa256tohs256
     
     docker ps 
     
@@ -48,7 +48,7 @@ install from my dockerhub : https://hub.docker.com/r/mhnamadi/jwt-php-rsa256tohs
         Login to admin and get jwt RSA256
         
         
-2. curl -i -s -k -X $'POST'  -H $'Host: 192.168.1.104:9090' -H $'Content-Type: application/json' -H $'Content-Length: 57' -H $'User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0' --data-binary $'{\"name\": \"login\",\"param\"{\"user\":\"admin\",\"pass\":\"admin\"}}'  $'http://192.168.1.104:9090/v3/'
+2. curl -i -s -k -X $'POST' -H $'Host: 192.168.1.104:9090' -H $'Content-Type: application/json' -H $'Content-Length: 57' -H $'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0' --data-binary $'{\"name\": \"login\",\"param\":{\"user\":\"admin\",\"pass\":\"admin\"}}' $'http://192.168.1.104:9090/v3/'
 
 ![Getting Started](81.png)
 
@@ -81,14 +81,15 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NDU0Nzk0NzcsImlzcyI6ImxvY2FsaG9
 
 ![Getting Started](84.png)
 
-   
-## Twitter & Facebook Contributor :
-   
- https://www.linkedin.com/in/mohammad-hussein-namadi-775baa131/
-     
 ## Fix 
 
 We encourage you to contribute to Project and Fix Codes
 
+If you want to pull request please follow this :
 
+CONTRIBUTION.md
 
+## Twitter & Facebook Contributor :
+   
+ https://www.linkedin.com/in/mohammad-hussein-namadi-775baa131/
+ 
