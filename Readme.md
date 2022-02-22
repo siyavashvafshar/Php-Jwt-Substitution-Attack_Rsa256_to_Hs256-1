@@ -40,11 +40,7 @@ install from my dockerhub : https://hub.docker.com/r/mhnamadi/jwt-php-rsa256tohs
         Login to securestore and get jwt RSA256
         
 
-1. curl -i -s -k -X $'POST' -H $'Host: 192.168.1.104:9090' -H $'Content-Type: application/json' -H $'Content-Length: 69' -H $'User-Agent: \ 
-
-Mozilla/5.0(Macintosh; Intel Mac OS X 10.15;rv:97.0) Gecko/20100101 Firefox/97.0' \
-
---data-binary $'{\"name\": \"login\",\"param\": \{\"user\":\"securestore\",\"pass\":\"securestore\"}}' $'http://192.168.1.104:9090/v3/'
+1. curl -i -s -k -X $'POST' -H $'Host: 192.168.1.104:9090' -H $'Content-Type: application/json' -H $'Content-Length: 69' -H $'User-Agent:Mozilla/5.0(Macintosh; Intel Mac OS X 10.15;rv:97.0) Gecko/20100101 Firefox/97.0' --data-binary $'{\"name\": \"login\",\"param\":{\"user\":\"securestore\",\"pass\":\"securestore\"}}' $'http://192.168.1.104:9090/v3/'
 
 ![Getting Started](80.png)
 
@@ -52,11 +48,7 @@ Mozilla/5.0(Macintosh; Intel Mac OS X 10.15;rv:97.0) Gecko/20100101 Firefox/97.0
         Login to admin and get jwt RSA256
         
         
-2. curl -i -s -k -X $'POST'  -H $'Host: 192.168.1.104:9090' -H $'Content-Type: application/json' -H $'Content-Length: 57' -H $'User-Agent: \
-
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0' \
-
---data-binary $'{\"name\": \"login\",\"param\":{\"user\":\"admin\",\"pass\":\"admin\"}}'  $'http://192.168.1.104:9090/v3/'
+2. curl -i -s -k -X $'POST'  -H $'Host: 192.168.1.104:9090' -H $'Content-Type: application/json' -H $'Content-Length: 57' -H $'User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0' --data-binary $'{\"name\": \"login\",\"param\"{\"user\":\"admin\",\"pass\":\"admin\"}}'  $'http://192.168.1.104:9090/v3/'
 
 ![Getting Started](81.png)
 
